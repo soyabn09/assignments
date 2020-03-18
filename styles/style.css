@@ -1,0 +1,32 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  overflow-x: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  overflow-x: auto;
+}
+
+.complete {
+  font-size: 20px;
+}
+
+.time {
+  text-align: center;
+  font-size: 25px;
+}
+
+.resub {
+    color: red;
+}
