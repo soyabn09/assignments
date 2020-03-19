@@ -3,6 +3,22 @@ body {
   margin: 2em;
 }
 
+h1, h2 {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.alert {
+    color: red;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -16,10 +32,6 @@ th {
   text-align: left;
   padding: 8px;
   overflow-x: auto;
-}
-
-.complete {
-  font-size: 20px;
 }
 
 .time {
