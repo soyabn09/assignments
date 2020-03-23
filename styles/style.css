@@ -17,6 +17,14 @@ h2 {
     color: red;
 }
 
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

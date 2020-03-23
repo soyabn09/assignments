@@ -1,17 +1,17 @@
 // DATES //
 
 var UNIT803 = new Date("Mar 27, 2020 12:00:00 GMT+00:00").getTime();
-var UNIT1803R = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
+//var UNIT1803R = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2002R = new Date("Apr 3, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT1102 = new Date("Mar 24, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT1103 = new Date("Mar 31, 2020 23:59:00 GMT+00:00").getTime();
-var UNIT2201 = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
+//var UNIT2201 = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2202 = new Date("Apr 3, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2702 = new Date("Mar 23, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2701 = new Date("Apr 3, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2301 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2302 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
-var UNIT2301 = new Date("May 14, 2020 23:00:00 GMT+00:00").getTime();
+var UNIT2303 = new Date("May 14, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT4201 = new Date("Apr 24, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT4202 = new Date("May 5, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT4203 = new Date("May 15, 2020 23:59:00 GMT+00:00").getTime();
@@ -34,12 +34,14 @@ var A = setInterval(function() {
     var MINS1 = Math.floor((DISTANCE1 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS1 = Math.floor((DISTANCE1 % (1000 * 60)) / 1000);
 
+    /*
     var DISTANCE2 = UNIT1803R - NOW;
 
     var DAYS2 = Math.floor(DISTANCE2 / (1000 * 60 * 60 * 24));
     var HOURS2 = Math.floor((DISTANCE2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS2 = Math.floor((DISTANCE2 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS2 = Math.floor((DISTANCE2 % (1000 * 60)) / 1000);
+    */
 
     var DISTANCE3 = UNIT2002R - NOW;
 
@@ -62,12 +64,14 @@ var A = setInterval(function() {
     var MINS5 = Math.floor((DISTANCE5 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS5 = Math.floor((DISTANCE5 % (1000 * 60)) / 1000);
 
+    /*
     var DISTANCE6 = UNIT2201 - NOW;
 
     var DAYS6 = Math.floor(DISTANCE6 / (1000 * 60 * 60 * 24));
     var HOURS6 = Math.floor((DISTANCE6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS6 = Math.floor((DISTANCE6 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS6 = Math.floor((DISTANCE6 % (1000 * 60)) / 1000);
+    */
 
     var DISTANCE7 = UNIT2202 - NOW;
 
@@ -97,14 +101,14 @@ var A = setInterval(function() {
     var MINS10 = Math.floor((DISTANCE10 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS10 = Math.floor((DISTANCE10 % (1000 * 60)) / 1000);
 
-    var DISTANCE11 = UNIT2301 - NOW;
+    var DISTANCE11 = UNIT2302 - NOW;
 
     var DAYS11 = Math.floor(DISTANCE11 / (1000 * 60 * 60 * 24));
     var HOURS11 = Math.floor((DISTANCE11 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS11 = Math.floor((DISTANCE11 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS11 = Math.floor((DISTANCE11 % (1000 * 60)) / 1000);
 
-    var DISTANCE12 = UNIT2301 - NOW;
+    var DISTANCE12 = UNIT2303 - NOW;
 
     var DAYS12 = Math.floor(DISTANCE12 / (1000 * 60 * 60 * 24));
     var HOURS12 = Math.floor((DISTANCE12 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -134,7 +138,7 @@ var A = setInterval(function() {
 
     document.getElementById("U8.3").innerHTML = DAYS1 + "d " + HOURS1 + "h " + MINS1 + "m " + SECS1 + "s ";
 
-    document.getElementById("U18.3").innerHTML = DAYS2 + "d " + HOURS2 + "h " + MINS2 + "m " + SECS2 + "s ";
+    //document.getElementById("U18.3").innerHTML = DAYS2 + "d " + HOURS2 + "h " + MINS2 + "m " + SECS2 + "s ";
 
     document.getElementById("U20.2").innerHTML = DAYS3 + "d " + HOURS3 + "h " + MINS3 + "m " + SECS3 + "s ";
 
@@ -142,7 +146,7 @@ var A = setInterval(function() {
 
     document.getElementById("U11.3").innerHTML = DAYS5 + "d " + HOURS5 + "h " + MINS5 + "m " + SECS5 + "s ";
 
-    document.getElementById("U22.1").innerHTML = DAYS6 + "d " + HOURS6 + "h " + MINS6 + "m " + SECS6 + "s ";
+    //document.getElementById("U22.1").innerHTML = DAYS6 + "d " + HOURS6 + "h " + MINS6 + "m " + SECS6 + "s ";
 
     document.getElementById("U22.2").innerHTML = DAYS7 + "d " + HOURS7 + "h " + MINS7 + "m " + SECS7 + "s ";
 
