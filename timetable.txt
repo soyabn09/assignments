@@ -180,11 +180,63 @@
             <li>
               <span><strong>MON</strong></span>
               <ul class="classes">
+                <li
+                  style="width: 125px; margin-left: -1px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="9:00 AM - 10:15 AM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (FOD-NR)<br />9:00 AM - 10:15 AM
+                    </div>
+                  </div>
+                </li>
+                <li
+                  style="width: 125px; margin-left: 16px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="10:25 AM - 11:40 AM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (G-NR)<br />10:25 AM - 11:40 AM
+                    </div>
+                  </div>
+                </li>
               </ul>
             </li>
             <li>
               <span><strong>TUE</strong></span>
               <ul class="classes">
+                <li
+                  style="width: 125px; margin-left: -1px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="9:00 AM - 10:15 AM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (G-NR)<br />9:00 AM - 10:15 AM
+                    </div>
+                  </div>
+                </li>
+                <li
+                  style="width: 125px; margin-left: 430px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="2:35 PM - 3:50 PM">
+                    <div>
+                      <strong
+                        >ACADEMIC TUTORIAL - LEVEL 3 YR 2 SOFT DEV GRP C</strong
+                      >
+                      (C001)<br />2:35 PM - 3:50 PM
+                    </div>
+                  </div>
+                </li>
+                <li
+                  style="width: 125px; margin-left: 16px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="4:00 PM - 5:15 PM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (C001)<br />4:00 PM - 5:15 PM
+                    </div>
+                  </div>
+                </li>
               </ul>
             </li>
             <li>
@@ -200,22 +252,42 @@
               <span><strong>FRI</strong></span>
               <ul class="classes">
                 <li
-                  style="width: 125px; margin-left: 100px; margin-top: 0px; border-right-width: 1px;"
+                  style="width: 125px; margin-left: -1px; margin-top: 0px; border-right-width: 1px;"
                 >
-                  <div style="border-top-width: 0;" title="10:00 AM - 11:15 AM">
+                  <div style="border-top-width: 0;" title="9:00 AM - 10:15 AM">
                     <div>
-                      <strong>Trevor Till</strong>
-                      <br />10:00 AM - 11:15 AM
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (D020)<br />9:00 AM - 10:15 AM
                     </div>
                   </div>
                 </li>
                 <li
-                  style="width: 125px; margin-left: 330px; margin-top: 0px; border-right-width: 1px;"
+                  style="width: 125px; margin-left: 16px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="10:25 AM - 11:40 AM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (D020)<br />10:25 AM - 11:40 AM
+                    </div>
+                  </div>
+                </li>
+                <li
+                  style="width: 125px; margin-left: 149px; margin-top: 0px; border-right-width: 1px;"
+                >
+                  <div style="border-top-width: 0;" title="1:10 PM - 2:25 PM">
+                    <div>
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (C001)<br />1:10 PM - 2:25 PM
+                    </div>
+                  </div>
+                </li>
+                <li
+                  style="width: 125px; margin-left: 16px; margin-top: 0px; border-right-width: 1px;"
                 >
                   <div style="border-top-width: 0;" title="2:35 PM - 3:50 PM">
                     <div>
-                      <strong>Emma Wellington</strong>
-                      <br />2:35 PM - 3:50 PM
+                      <strong>LEVEL 3 YR 2 SOFT DEV GRP C</strong>
+                      (C001)<br />2:35 PM - 3:50 PM
                     </div>
                   </div>
                 </li>
