@@ -7,7 +7,7 @@ var UNIT1102 = new Date("Mar 24, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT1103 = new Date("Mar 31, 2020 23:59:00 GMT+00:00").getTime();
 //var UNIT2201 = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2202 = new Date("Apr 3, 2020 23:59:00 GMT+00:00").getTime();
-var UNIT2702 = new Date("Mar 23, 2020 23:59:00 GMT+00:00").getTime();
+//var UNIT2702 = new Date("Mar 23, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2701 = new Date("Apr 3, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2301 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2302 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
@@ -80,12 +80,14 @@ var A = setInterval(function() {
     var MINS7 = Math.floor((DISTANCE7 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS7 = Math.floor((DISTANCE7 % (1000 * 60)) / 1000);
 
+    /*
     var DISTANCE8 = UNIT2702 - NOW;
 
     var DAYS8 = Math.floor(DISTANCE8 / (1000 * 60 * 60 * 24));
     var HOURS8 = Math.floor((DISTANCE8 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS8 = Math.floor((DISTANCE8 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS8 = Math.floor((DISTANCE8 % (1000 * 60)) / 1000);
+    */
 
     var DISTANCE9 = UNIT2701 - NOW;
 
@@ -150,7 +152,7 @@ var A = setInterval(function() {
 
     document.getElementById("U22.2").innerHTML = DAYS7 + "d " + HOURS7 + "h " + MINS7 + "m " + SECS7 + "s ";
 
-    document.getElementById("U27.2").innerHTML = DAYS8 + "d " + HOURS8 + "h " + MINS8 + "m " + SECS8 + "s ";
+    //document.getElementById("U27.2").innerHTML = DAYS8 + "d " + HOURS8 + "h " + MINS8 + "m " + SECS8 + "s ";
 
     document.getElementById("U27.1").innerHTML = DAYS9 + "d " + HOURS9 + "h " + MINS9 + "m " + SECS9 + "s ";
 
