@@ -1,13 +1,13 @@
 // DATES //
 
 var UNIT803 = new Date("Mar 27, 2020 12:00:00 GMT+00:00").getTime();
-//var UNIT1803R = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
+var UNIT1803R = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2002R = new Date("Apr 3, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT1102 = new Date("Mar 24, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT1103 = new Date("Mar 31, 2020 23:59:00 GMT+00:00").getTime();
-//var UNIT2201 = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
+var UNIT2201 = new Date("Mar 20, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2202 = new Date("Apr 3, 2020 23:59:00 GMT+00:00").getTime();
-//var UNIT2702 = new Date("Mar 23, 2020 23:59:00 GMT+00:00").getTime();
+var UNIT2702 = new Date("Mar 23, 2020 23:59:00 GMT+00:00").getTime();
 var UNIT2701 = new Date("Apr 3, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2301 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
 var UNIT2302 = new Date("May 1, 2020 23:00:00 GMT+00:00").getTime();
@@ -34,14 +34,12 @@ var A = setInterval(function() {
     var MINS1 = Math.floor((DISTANCE1 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS1 = Math.floor((DISTANCE1 % (1000 * 60)) / 1000);
 
-    /*
     var DISTANCE2 = UNIT1803R - NOW;
 
     var DAYS2 = Math.floor(DISTANCE2 / (1000 * 60 * 60 * 24));
     var HOURS2 = Math.floor((DISTANCE2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS2 = Math.floor((DISTANCE2 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS2 = Math.floor((DISTANCE2 % (1000 * 60)) / 1000);
-    */
 
     var DISTANCE3 = UNIT2002R - NOW;
 
@@ -64,14 +62,12 @@ var A = setInterval(function() {
     var MINS5 = Math.floor((DISTANCE5 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS5 = Math.floor((DISTANCE5 % (1000 * 60)) / 1000);
 
-    /*
     var DISTANCE6 = UNIT2201 - NOW;
 
     var DAYS6 = Math.floor(DISTANCE6 / (1000 * 60 * 60 * 24));
     var HOURS6 = Math.floor((DISTANCE6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS6 = Math.floor((DISTANCE6 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS6 = Math.floor((DISTANCE6 % (1000 * 60)) / 1000);
-    */
 
     var DISTANCE7 = UNIT2202 - NOW;
 
@@ -80,14 +76,12 @@ var A = setInterval(function() {
     var MINS7 = Math.floor((DISTANCE7 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS7 = Math.floor((DISTANCE7 % (1000 * 60)) / 1000);
 
-    /*
     var DISTANCE8 = UNIT2702 - NOW;
 
     var DAYS8 = Math.floor(DISTANCE8 / (1000 * 60 * 60 * 24));
     var HOURS8 = Math.floor((DISTANCE8 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var MINS8 = Math.floor((DISTANCE8 % (1000 * 60 * 60)) / (1000 * 60));
     var SECS8 = Math.floor((DISTANCE8 % (1000 * 60)) / 1000);
-    */
 
     var DISTANCE9 = UNIT2701 - NOW;
 
